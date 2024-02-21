@@ -7,12 +7,12 @@ contract DataConsumerV3 {
     AggregatorV3Interface internal priceFeed;
 
     /**
-     * Network: Base Goerli
+     * Network: Base Sepolia
      * Aggregator: ETH/USD
-     * Address: 0xcD2A119bD1F7DF95d706DE6F2057fDD45A0503E2
+     * Address: 0x4aDC67696bA383F43DD60A9e78F2C97Fbbfc7cb1
      */
     constructor() {
-        priceFeed = AggregatorV3Interface(0xcD2A119bD1F7DF95d706DE6F2057fDD45A0503E2);
+        priceFeed = AggregatorV3Interface(0x4aDC67696bA383F43DD60A9e78F2C97Fbbfc7cb1);
     }
 
     function getLatestPrice() public view returns (int256) {

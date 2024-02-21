@@ -29,7 +29,7 @@ forge fmt
 ### Deploy
 
 ```shell
-forge create ./src/DataConsumerV3.sol:DataConsumerV3 --rpc-url $BASE_GOERLI_RPC --account deployer
+forge create ./src/DataConsumerV3.sol:DataConsumerV3 --rpc-url $BASE_SEPOLIA_RPC --account deployer
 ```
 
 ### Cast
